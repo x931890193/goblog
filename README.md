@@ -141,7 +141,7 @@ SiteFile     = "/data/goblog/sitemap.xml"
 #### 基本页面 
 可以到我的博客[http://goblog.deepzz.com](http://goblog.deepzz.com:9010)查看，https访问[https://goblog.deepzz.com:9010](https://goblog.deepzz.com:9010)，国外服务器网速稍慢。  
 前端页面
-![show](https://o7msui8ho.qnssl.com/img/home.png)
+![show](https://deepzz.com/img/home.png)
 后台登陆
 ![login](https://o7msui8ho.qnssl.com/img/login.png)
 首页统计
