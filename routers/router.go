@@ -2,18 +2,18 @@ package routers
 
 import (
 	"fmt"
+	"goblog/controllers/plugin"
+	"goblog/controllers/proxy"
 	"html/template"
 	"net/http"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
-	"github.com/deepzz0/goblog/RS"
-	"github.com/deepzz0/goblog/controllers"
-	"github.com/deepzz0/goblog/controllers/background"
-	"github.com/deepzz0/goblog/controllers/feed"
-	"github.com/deepzz0/goblog/controllers/plugin"
-	"github.com/deepzz0/goblog/controllers/proxy"
-	"github.com/deepzz0/goblog/helper"
+	"goblog/RS"
+	"goblog/controllers"
+	"goblog/controllers/background"
+	"goblog/controllers/feed"
+	"goblog/helper"
 )
 
 const (

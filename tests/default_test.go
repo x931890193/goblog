@@ -1,7 +1,7 @@
 package test
 
 import (
-	_ "github.com/deepzz0/goblog/routers"
+	_ "goblog/routers"
 	"net/http"
 	"net/http/httptest"
 	"path/filepath"

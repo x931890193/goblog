@@ -2,6 +2,7 @@ package feed
 
 import (
 	"fmt"
+	"goblog/go-com/logd"
 	"net/http"
 	"os"
 	"strings"
@@ -9,10 +10,9 @@ import (
 	"time"
 
 	"github.com/astaxie/beego/context"
-	"github.com/deepzz0/goblog/controllers"
-	"github.com/deepzz0/goblog/helper"
-	"github.com/deepzz0/goblog/models"
-	"github.com/deepzz0/logd"
+	"goblog/controllers"
+	"goblog/helper"
+	"goblog/models"
 )
 
 func init() {

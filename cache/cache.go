@@ -2,11 +2,11 @@ package cache
 
 import (
 	"encoding/json"
+	"goblog/go-com/logd"
 	"io/ioutil"
 	"os"
 
-	"github.com/deepzz0/goblog/models"
-	"github.com/deepzz0/logd"
+	"goblog/models"
 )
 
 type cache struct {
@@ -23,7 +23,7 @@ func NewCache() *cache {
 
 func init() {
 	doReadBackLeftBarConfig()
-	doReadBuildVersionConfig()
+	//doReadBuildVersionConfig()
 }
 
 var path, _ = os.Getwd()

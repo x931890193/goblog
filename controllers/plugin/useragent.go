@@ -2,12 +2,12 @@ package plugin
 
 import (
 	"fmt"
+	"goblog/go-com/useragent"
 	"time"
 
-	"github.com/deepzz0/go-com/useragent"
-	"github.com/deepzz0/goblog/RS"
-	"github.com/deepzz0/goblog/helper"
-	"github.com/deepzz0/goblog/models"
+	"goblog/RS"
+	"goblog/helper"
+	"goblog/models"
 )
 
 type UserAgent struct {

@@ -1,14 +1,14 @@
 package models
 
 import (
+	"goblog/go-com/logd"
 	"sort"
 	"sync"
 	"time"
 
-	db "github.com/deepzz0/go-com/mongo"
-	"github.com/deepzz0/goblog/RS"
-	"github.com/deepzz0/goblog/helper"
-	"github.com/deepzz0/logd"
+	"goblog/RS"
+	db "goblog/go-com/mongo"
+	"goblog/helper"
 	"gopkg.in/mgo.v2/bson"
 )
 

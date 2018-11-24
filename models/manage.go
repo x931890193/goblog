@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	db "github.com/deepzz0/go-com/mongo"
-	tm "github.com/deepzz0/go-com/time"
-	"github.com/deepzz0/go-com/useragent"
-	"github.com/deepzz0/logd"
 	"github.com/wangtuanjie/ip17mon"
+	"goblog/go-com/logd"
+	db "goblog/go-com/mongo"
+	tm "goblog/go-com/time"
+	"goblog/go-com/useragent"
 	"gopkg.in/mgo.v2/bson"
 )
 

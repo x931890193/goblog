@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
-	"github.com/deepzz0/goblog/cache"
-	"github.com/deepzz0/goblog/models"
+	"goblog/cache"
+	"goblog/models"
 )
 
 var Domain string

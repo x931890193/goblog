@@ -1,8 +1,8 @@
 package background
 
 import (
-	"github.com/deepzz0/goblog/controllers"
-	"github.com/deepzz0/goblog/models"
+	"goblog/controllers"
+	"goblog/models"
 )
 
 type MessageController struct {

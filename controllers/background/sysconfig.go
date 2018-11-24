@@ -7,9 +7,9 @@ import (
 
 	log "qiniupkg.com/x/log.v7"
 
-	"github.com/deepzz0/goblog/RS"
-	"github.com/deepzz0/goblog/helper"
-	"github.com/deepzz0/goblog/models"
+	"goblog/RS"
+	"goblog/helper"
+	"goblog/models"
 )
 
 type SysconfigController struct {
@@ -118,4 +118,9 @@ func (this *SysconfigController) getSitemap(resp *helper.Response) {
 
 type DataBackupRecover struct {
 	Common
+}
+
+func (this *DataBackupRecover) Get() {
+	this.Ctx.WriteString("666")
+
 }

@@ -2,13 +2,13 @@ package background
 
 import (
 	"encoding/json"
+	"goblog/go-com/logd"
 	"sort"
 	"time"
 
-	"github.com/deepzz0/goblog/RS"
-	"github.com/deepzz0/goblog/helper"
-	"github.com/deepzz0/goblog/models"
-	"github.com/deepzz0/logd"
+	"goblog/RS"
+	"goblog/helper"
+	"goblog/models"
 )
 
 type SocialController struct {
@@ -29,7 +29,7 @@ func (this *SocialController) Post() {
 	resp := helper.NewResponse()
 	defer resp.WriteJson(this.Ctx.ResponseWriter)
 	flag := this.GetString("flag")
-	logd.Debugf("flag = %s", flag)
+	logd.Debugf("flag = %s\n", flag)
 	switch flag {
 	case "save":
 		this.saveSocial(resp)

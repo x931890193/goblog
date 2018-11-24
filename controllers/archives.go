@@ -4,7 +4,7 @@ package controllers
 import (
 	"fmt"
 
-	"github.com/deepzz0/goblog/models"
+	"goblog/models"
 )
 
 type ArchivesController struct {

@@ -2,13 +2,13 @@
 package proxy
 
 import (
+	"goblog/go-com/logd"
 	"io/ioutil"
 	"net/http"
 	"time"
 
 	"github.com/astaxie/beego"
-	"github.com/deepzz0/goblog/models"
-	"github.com/deepzz0/logd"
+	"goblog/models"
 )
 
 type ProxyController struct {

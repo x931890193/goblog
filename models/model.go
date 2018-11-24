@@ -2,15 +2,16 @@ package models
 
 import (
 	"encoding/json"
+	"goblog/go-com/logd"
+	"goblog/go-com/monitor"
 	"io/ioutil"
 	"os"
 	"time"
 
-	"github.com/deepzz0/go-com/monitor"
-	"github.com/deepzz0/goblog/RS"
-	"github.com/deepzz0/goblog/helper"
-	"github.com/deepzz0/logd"
 	"github.com/wangtuanjie/ip17mon"
+
+	"goblog/RS"
+	"goblog/helper"
 )
 
 const (
@@ -46,7 +47,7 @@ func init() {
 	}
 	//
 	UMgr.loadUsers()
-	Blogger = UMgr.Get("deepzz")
+	Blogger = UMgr.Get("root")
 	// not found account
 	if Blogger == nil {
 		initAccount()
@@ -76,7 +77,7 @@ func initAccount() {
 	if code != RS.RS_success {
 		panic("init failed。")
 	}
-	Blogger = UMgr.Get("deepzz")
+	Blogger = UMgr.Get("root")
 }
 
 func timer() {
