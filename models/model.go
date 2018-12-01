@@ -42,7 +42,8 @@ var Blogger *User
 var Icons = make(map[string]*Icon, 500)
 
 func init() {
-	if err := ip17mon.Init(path + "/conf/17monipdb.dat"); err != nil {
+	if err := ip17mon.Init("/root/go/src/goblog/conf/17monipdb.dat"); err != nil {
+
 		logd.Fatal(err)
 	}
 	//
