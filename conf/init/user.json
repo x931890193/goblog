@@ -2,12 +2,12 @@
     "UserName": "root",
     "PassWord": "flzx3qc",
     "Email": "ysudqfs@163.com",
-    "Salt": "__(f",
+    "Salt": "付",
     "Sex": "男",
-    "PNumber": 15100000000,
-    "Address": "山西胡同",
+    "PNumber": 18811055691,
+    "Address": "北京",
     "Education": "本科",
-    "RealName": "陈",
+    "RealName": "付",
     "CreateTime": "2016-01-31T17:38:40.431+08:00",
     "LoginTime": "2016-01-31T17:38:40.431+08:00",
     "LoginIp": "127.0.0.1",
@@ -103,7 +103,7 @@
             "ID": "github",
             "SortID": 0,
             "Title": "我的github",
-            "Extra": "http://github.com/x91890193",
+            "Extra": "http://github.com/x931890193",
             "Icon": "fa fa-github fa-2x",
             "CreateTime": "2016-02-03T22:32:49.06+08:00"
         },
@@ -111,7 +111,7 @@
             "ID": "weibo",
             "SortID": 1,
             "Title": "我的微博",
-            "Extra": "http://weibo.com/52dxs",
+            "Extra": "http://weibo.com/",
             "Icon": "fa fa-weibo fa-2x",
             "CreateTime": "2016-02-03T22:32:49.06+08:00"
         },
@@ -136,8 +136,8 @@
         {
             "ID": "github",
             "SortID": 0,
-            "Title": "deepzz0的github",
-            "Extra": "http://github.com/deepzz0",
+            "Title": "x93190193的github",
+            "Extra": "http://github.com/x931890193",
             "Text": "github",
             "CreateTime": "2016-02-03T21:35:11.28+08:00"
         }
